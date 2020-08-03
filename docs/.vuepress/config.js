@@ -1,0 +1,22 @@
+module.exports = {
+    title:'丁坤的个人网站',
+    description:'我的个人网站',
+    head:[
+        ['link',{rel:'icon',href:'/logo.jpg'}],
+        ['link',{rel:'manifest',href:'/photo.jpg'}],
+        ['link',{rel:'apple-touch-icon',href:'/photo.jpg'}]
+    ],
+    serviceWorker:true,
+    base:'/',
+    markdown:{
+        lineNumbers:false
+    },
+    themeConfig:{
+        nav:[
+            {text:'前端基础',link:'/accumulate/'},
+            {text:'算法',link:'/accu/'},
+            {text:'百度',link:'https://www.baidu.com'}
+        ],
+        sidebar:'auto',
+    }
+}
